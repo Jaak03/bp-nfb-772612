@@ -9,5 +9,5 @@ services:
     ports:
       - '9005:9005'
     volumes:
-      - '.:/app'
+      - './functions:/app'
       - '$HOME/.ssh/:/root/.ssh/'
