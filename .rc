@@ -1,0 +1,9 @@
+#!/bin/zsh
+
+alias dc="docker compose";
+alias run="dc exec -it app";
+alias up="dc up app -d";
+alias build="dc build app";
+alias fb="run firebase";
+alias node="run node";
+alias npm="run npm";
