@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 
 services:
   app:
@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     tty: true
     ports:
-      - '9005:9005'
+      - "9005:9005"
     volumes:
-      - '.:/app'
-      - '$HOME/.ssh/:/root/.ssh/'
+      - "./functions:/app"
+      - "$HOME/.ssh/:/root/.ssh/"

@@ -1,5 +1,5 @@
 # bp-nfb-772612
-Boilerplate for working with Google Cloud Functions written in NodeJS using the Firebase CLI.
+Project to automate and gather relevant metrics on the health of engineering at MOHARA. Phases are first to gather data into some kind of database and being able to export a CSV out of that. After that, we will be working on building a basic UI or addon for something that lets us present the data.
 
 ## to run ##
 ```shell
